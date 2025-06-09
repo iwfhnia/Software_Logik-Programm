@@ -1,4 +1,4 @@
-// Software-Logik für A–D, Ausgabe von Z auf LED, keine serielle Ausgabe
+// Software-Logik für boolesche Funktion, Ausgabe von Z auf LED
 
 // Pins für Taster
 const int pinA   = 5;  // A → D5
@@ -33,6 +33,4 @@ void loop() {
 
   // LED-Ausgabe
   digitalWrite(zLedPin, Z);
-
-  // keine Serial-Prints mehr
 }
