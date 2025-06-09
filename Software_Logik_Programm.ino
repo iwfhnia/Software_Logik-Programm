@@ -7,7 +7,7 @@ const int pinC   = 3;  // C → D3
 const int pinD   = 2;  // D → D2
 
 // LED für Z
-const int zLedPin = 13;
+const int zLedPin = 13; // / → D13
 
 void setup() {
   // Taster mit internem Pull-Up
@@ -22,7 +22,7 @@ void setup() {
 }
 
 void loop() {
-  // Eingänge lesen (HIGH = gedrückt → invertieren)
+  // Eingänge lesen (HIGH = gedrückt)
   bool A = digitalRead(pinA);
   bool B = digitalRead(pinB);
   bool C = digitalRead(pinC);
